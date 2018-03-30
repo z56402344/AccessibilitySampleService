@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Light.NoTitleBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Accessibility.Transparent.Activity" parent="android:Theme">
+        <item name="android:windowBackground">@color/accessibility_transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/accessibility_super_guide</item>
+    </style>
+    <style name="accessibility_super_guide">
+        <item name="android:activityOpenEnterAnimation">@anim/accessibility_bottom_in</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@anim/accessibility_bottom_out</item>
+    </style>
+
+    <style name="LoadingDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">false</item><!-- 有没有黑色浮层 -->
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="btnYellow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/btn_height</item>
+        <item name="android:textSize">@dimen/sp_15</item>
+        <item name="android:textColor">@color/selector_btn_gray</item>
+        <item name="android:background">@drawable/selector_yellow_btn</item>
+        <item name="android:onClick">onClick</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <!-- 登陆注册表单EditText样式 -->
+    <style name="editTexStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textSize">@dimen/sp_17</item>
+        <item name="android:textColor">@color/login_text</item>
+        <item name="android:textColorHint">@color/login_EditText</item>
+        <item name="android:singleLine">true</item>
+    </style>
+</resources>

@@ -1,0 +1,3 @@
+include ':app'
+include ':AideLib'
+project(':AideLib').projectDir = new File('AideLib')

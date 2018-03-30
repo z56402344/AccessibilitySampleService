@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="accessibility_transparent">#00000000</color>
+
+    <!-- 白色 -->
+    <color name="white">#ffffffff</color>
+
+    <!-- 灰色 -->
+    <color name="main_line_gray">#e0e0e0</color>
+    <color name="gray_88333333">#88333333</color>
+    <color name="gray_777777">#777777</color>
+    <color name="gray_2E2E2E">#2E2E2E</color>
+    <color name="gray_1e1e1e">#1e1e1e</color>
+    <color name="login_text">#99000000</color>
+    <color name="login_EditText">#99959595</color>
+
+    <!-- 黄色 -->
+    <color name="btn_yellow_up">#fcc800</color>
+    <color name="btn_yellow_down">#ffb018</color>
+</resources>
